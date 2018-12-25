@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>1.0.0-alpha</Version>
+    <Description>DynamicVNET.Lib extension for asp.net core. Extensible AOP (interceptor filter). Also allows to reuse marker validation.</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>DynamicVNET.Lib.AspNetCore</PackageId>
+    <Authors>DynamicVNET.Lib.AspNetCore</Authors>
+    <Company>DynamicVNET.Lib.AspNetCore</Company>
+    <Product>DynamicVNET.Lib.AspNetCore</Product>
+    <Copyright>Copyright (c) 2018 Rasul Huseynov</Copyright>
+    <AssemblyName>DynamicVNET.Lib.AspNetCore</AssemblyName>
+    <RootNamespace>DynamicVNET.Lib.AspNetCore</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DynamicVNET" Version="1.2.6" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.AspNetCore.Mvc.Core">
+      <HintPath>..\..\..\..\..\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.aspnetcore.mvc.core\2.1.1\lib\netstandard2.0\Microsoft.AspNetCore.Mvc.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
