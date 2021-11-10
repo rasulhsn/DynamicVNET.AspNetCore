@@ -1,7 +1,7 @@
 ## DynamicVNET For Asp.Net Core - Overview [BETA]
 [![NuGet](https://img.shields.io/badge/nuget-1.0.1_alpha-blue.svg)](https://www.nuget.org/packages/DynamicVNET.Lib.AspNetCore/1.0.1-alpha)
 
-This project created for experiment purpose. <strong>No longer supported!</strong>
+This project was created for the purpose of experiment. <strong>No longer supported!</strong>
 
 ### Support
  - Profile Validations.
